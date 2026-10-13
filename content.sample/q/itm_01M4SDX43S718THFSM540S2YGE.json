@@ -1,0 +1,32 @@
+{
+  "id": "itm_01M4SDX43S718THFSM540S2YGE",
+  "version": 1,
+  "tags": {
+    "domainId": "practice",
+    "subtopicId": "sample-ui-buttons",
+    "taskStatementId": "ts-sample-ui-buttons",
+    "cognitiveLevel": "remember"
+  },
+  "lastVerifiedAt": "2026-10-13T01:26:49.210Z",
+  "type": "vignette_mcq",
+  "vignette": "SAMPLE: A fictional user opens the fictional test screen and looks at the buttons.",
+  "stem": "SAMPLE: Which statement about disabled test buttons is supported by the sources?",
+  "options": [
+    {
+      "id": "A",
+      "text": "SAMPLE fact (mock) about disabled test buttons 40"
+    },
+    {
+      "id": "B",
+      "text": "SAMPLE distractor B contradicting secondary test buttons"
+    },
+    {
+      "id": "C",
+      "text": "SAMPLE distractor C contradicting fictional layouts place"
+    },
+    {
+      "id": "D",
+      "text": "SAMPLE distractor D contradicting the primary test"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "itm_01M4SDX43S718THFSM540S2YGE",
+  "version": 1,
+  "type": "vignette_mcq",
+  "key": "A",
+  "rationales": {
+    "A": [
+      {
+        "text": "SAMPLE: correct, it restates disabled test buttons.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 2,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Labels"
+          }
+        ]
+      }
+    ],
+    "B": [
+      {
+        "text": "SAMPLE: wrong, the fact on secondary test buttons rules out B.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 1,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+          }
+        ]
+      }
+    ],
+    "C": [
+      {
+        "text": "SAMPLE: wrong, the fact on fictional layouts place rules out C.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 2,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Spacing"
+          }
+        ]
+      }
+    ],
+    "D": [
+      {
+        "text": "SAMPLE: wrong, the fact on the primary test rules out D.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 1,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+          }
+        ]
+      }
+    ]
+  },
+  "explanation": [
+    {
+      "text": "SAMPLE: the explanation for disabled test buttons cites its fact.",
+      "cites": [
+        {
+          "sourceId": "src_sample-ui-style-guide",
+          "page": 2,
+          "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Labels"
+        }
+      ]
+    }
+  ]
+}

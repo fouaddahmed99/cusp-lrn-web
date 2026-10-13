@@ -1,0 +1,49 @@
+{
+  "subtopicId": "sample-ui-buttons",
+  "sections": [
+    {
+      "id": "itm_01M4SDX444P0BVREH8SJT05SQ1",
+      "version": 1,
+      "heading": "SAMPLE notes one",
+      "tags": {
+        "domainId": "practice",
+        "subtopicId": "sample-ui-buttons",
+        "taskStatementId": "ts-sample-ui-buttons",
+        "cognitiveLevel": "remember"
+      },
+      "bullets": [
+        {
+          "text": "SAMPLE fact (mock) about disabled test buttons 40",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 2,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Labels"
+            }
+          ]
+        },
+        {
+          "text": "SAMPLE fact (mock) about secondary test buttons",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 1,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+            }
+          ]
+        },
+        {
+          "text": "SAMPLE fact (mock) about fictional layouts place 16",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 2,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Spacing"
+            }
+          ]
+        }
+      ],
+      "lastVerifiedAt": "2026-10-13T01:26:49.220Z"
+    }
+  ]
+}

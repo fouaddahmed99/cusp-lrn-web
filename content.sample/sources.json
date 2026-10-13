@@ -1,0 +1,20 @@
+[
+  {
+    "id": "src_sample-condition-x-fact-sheet",
+    "title": "SAMPLE Fictional Condition X Fact Sheet",
+    "organization": "SAMPLE Fictional Health Agency",
+    "year": 2024,
+    "versionLabel": "2024",
+    "url": "https://example.org/sample-condition-x",
+    "licenseLabel": "Open license"
+  },
+  {
+    "id": "src_sample-ui-style-guide",
+    "title": "SAMPLE UI Style Guide (fictional)",
+    "organization": "SAMPLE Fictional Standards Body",
+    "year": 2025,
+    "versionLabel": "2025",
+    "url": "https://example.org/sample-ui-style-guide",
+    "licenseLabel": "Open license"
+  }
+]

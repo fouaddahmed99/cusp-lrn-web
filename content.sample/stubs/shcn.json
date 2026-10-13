@@ -1,0 +1,26 @@
+[
+  {
+    "id": "itm_01M4SDX449P2Z2GYCXETTEK1YQ",
+    "version": 1,
+    "type": "mcq",
+    "tags": {
+      "domainId": "shcn",
+      "subtopicId": "sample-condition-x",
+      "taskStatementId": "ts-sample-condition-x",
+      "cognitiveLevel": "remember"
+    },
+    "hasMedia": false
+  },
+  {
+    "id": "itm_01M4SDX44KXKQ7MBEKD9JACVRT",
+    "version": 1,
+    "type": "oce_vignette",
+    "tags": {
+      "domainId": "shcn",
+      "subtopicId": "sample-condition-x",
+      "taskStatementId": "ts-sample-condition-x",
+      "cognitiveLevel": "analyze_evaluate"
+    },
+    "hasMedia": false
+  }
+]

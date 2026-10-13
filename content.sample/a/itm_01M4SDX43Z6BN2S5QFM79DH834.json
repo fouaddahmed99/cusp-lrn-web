@@ -1,0 +1,17 @@
+{
+  "id": "itm_01M4SDX43Z6BN2S5QFM79DH834",
+  "version": 1,
+  "type": "flashcard",
+  "back": [
+    {
+      "text": "SAMPLE fact (mock) about disabled test buttons 40",
+      "cites": [
+        {
+          "sourceId": "src_sample-ui-style-guide",
+          "page": 2,
+          "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Labels"
+        }
+      ]
+    }
+  ]
+}

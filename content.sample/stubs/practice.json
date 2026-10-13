@@ -1,0 +1,38 @@
+[
+  {
+    "id": "itm_01M4SDX43DJ3F6XHYHQCNXHKQX",
+    "version": 1,
+    "type": "mcq",
+    "tags": {
+      "domainId": "practice",
+      "subtopicId": "sample-ui-buttons",
+      "taskStatementId": "ts-sample-ui-buttons",
+      "cognitiveLevel": "remember"
+    },
+    "hasMedia": false
+  },
+  {
+    "id": "itm_01M4SDX43S718THFSM540S2YGE",
+    "version": 1,
+    "type": "vignette_mcq",
+    "tags": {
+      "domainId": "practice",
+      "subtopicId": "sample-ui-buttons",
+      "taskStatementId": "ts-sample-ui-buttons",
+      "cognitiveLevel": "remember"
+    },
+    "hasMedia": false
+  },
+  {
+    "id": "itm_01M4SDX43Z6BN2S5QFM79DH834",
+    "version": 1,
+    "type": "flashcard",
+    "tags": {
+      "domainId": "practice",
+      "subtopicId": "sample-ui-buttons",
+      "taskStatementId": "ts-sample-ui-buttons",
+      "cognitiveLevel": "remember"
+    },
+    "hasMedia": false
+  }
+]

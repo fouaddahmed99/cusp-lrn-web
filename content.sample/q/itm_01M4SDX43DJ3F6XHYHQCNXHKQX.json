@@ -1,0 +1,31 @@
+{
+  "id": "itm_01M4SDX43DJ3F6XHYHQCNXHKQX",
+  "version": 1,
+  "tags": {
+    "domainId": "practice",
+    "subtopicId": "sample-ui-buttons",
+    "taskStatementId": "ts-sample-ui-buttons",
+    "cognitiveLevel": "remember"
+  },
+  "lastVerifiedAt": "2026-10-13T01:26:49.201Z",
+  "type": "mcq",
+  "stem": "SAMPLE: Which statement about fictional condition x is supported by the sources?",
+  "options": [
+    {
+      "id": "A",
+      "text": "SAMPLE fact (mock) about fictional condition x"
+    },
+    {
+      "id": "B",
+      "text": "SAMPLE distractor B contradicting the primary test"
+    },
+    {
+      "id": "C",
+      "text": "SAMPLE distractor C contradicting secondary test buttons"
+    },
+    {
+      "id": "D",
+      "text": "SAMPLE distractor D contradicting fictional layouts place"
+    }
+  ]
+}

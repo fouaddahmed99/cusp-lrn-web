@@ -1,0 +1,13 @@
+{
+  "name": "CUSP LRN Pediatric Dentistry Boards",
+  "short_name": "CUSP LRN",
+  "description": "Free, source-grounded board prep. Works offline; progress stays on your device.",
+  "start_url": "./app/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f5f8b",
+  "icons": [
+    { "src": "brand/icon-temporary.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

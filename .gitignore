@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+# Generated at build time from content/ (or content.sample/)
+public/content/
+public/sw.js
+playwright-report/
+test-results/
+.DS_Store
+.env*
+.claude/

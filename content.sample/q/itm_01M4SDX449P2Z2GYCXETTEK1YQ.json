@@ -1,0 +1,31 @@
+{
+  "id": "itm_01M4SDX449P2Z2GYCXETTEK1YQ",
+  "version": 1,
+  "tags": {
+    "domainId": "shcn",
+    "subtopicId": "sample-condition-x",
+    "taskStatementId": "ts-sample-condition-x",
+    "cognitiveLevel": "remember"
+  },
+  "lastVerifiedAt": "2026-10-13T01:26:49.226Z",
+  "type": "mcq",
+  "stem": "SAMPLE: Which statement about disabled test buttons is supported by the sources?",
+  "options": [
+    {
+      "id": "A",
+      "text": "SAMPLE fact (mock) about disabled test buttons 40"
+    },
+    {
+      "id": "B",
+      "text": "SAMPLE distractor B contradicting secondary test buttons"
+    },
+    {
+      "id": "C",
+      "text": "SAMPLE distractor C contradicting fictional layouts place"
+    },
+    {
+      "id": "D",
+      "text": "SAMPLE distractor D contradicting the primary test"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "itm_01M4SDX44KXKQ7MBEKD9JACVRT",
+  "version": 1,
+  "type": "oce_vignette",
+  "prompts": [
+    {
+      "modelAnswer": [
+        {
+          "text": "SAMPLE fact (mock) about disabled test buttons 40",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 2,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Labels"
+            }
+          ]
+        }
+      ],
+      "score2Gaps": [
+        "SAMPLE gap"
+      ],
+      "rubric": {
+        "1": "SAMPLE missing",
+        "2": "SAMPLE partial",
+        "3": "SAMPLE complete"
+      }
+    },
+    {
+      "modelAnswer": [
+        {
+          "text": "SAMPLE fact (mock) about secondary test buttons",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 1,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+            }
+          ]
+        }
+      ],
+      "score2Gaps": [
+        "SAMPLE gap"
+      ],
+      "rubric": {
+        "1": "SAMPLE missing",
+        "2": "SAMPLE partial",
+        "3": "SAMPLE complete"
+      }
+    },
+    {
+      "modelAnswer": [
+        {
+          "text": "SAMPLE fact (mock) about fictional layouts place 16",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 2,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Spacing"
+            }
+          ]
+        }
+      ],
+      "score2Gaps": [
+        "SAMPLE gap"
+      ],
+      "rubric": {
+        "1": "SAMPLE missing",
+        "2": "SAMPLE partial",
+        "3": "SAMPLE complete"
+      }
+    },
+    {
+      "modelAnswer": [
+        {
+          "text": "SAMPLE fact (mock) about the primary test 4",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 1,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+            }
+          ]
+        }
+      ],
+      "score2Gaps": [
+        "SAMPLE gap"
+      ],
+      "rubric": {
+        "1": "SAMPLE missing",
+        "2": "SAMPLE partial",
+        "3": "SAMPLE complete"
+      }
+    },
+    {
+      "modelAnswer": [
+        {
+          "text": "SAMPLE fact (mock) about test button labels 3",
+          "cites": [
+            {
+              "sourceId": "src_sample-ui-style-guide",
+              "page": 2,
+              "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Labels"
+            }
+          ]
+        }
+      ],
+      "score2Gaps": [
+        "SAMPLE gap"
+      ],
+      "rubric": {
+        "1": "SAMPLE missing",
+        "2": "SAMPLE partial",
+        "3": "SAMPLE complete"
+      }
+    }
+  ]
+}

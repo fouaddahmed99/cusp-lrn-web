@@ -1,0 +1,62 @@
+{
+  "id": "form_mini-50-a",
+  "name": "SAMPLE 50-item mini-mock — Form A",
+  "kind": "mini50",
+  "itemIds": [
+    "itm_01M4SDX43S718THFSM540S2YGE",
+    "itm_01M4SDX449P2Z2GYCXETTEK1YQ",
+    "itm_01M4SDX43DJ3F6XHYHQCNXHKQX"
+  ],
+  "shortfall": [
+    {
+      "domainId": "caries",
+      "target": 12,
+      "available": 0
+    },
+    {
+      "domainId": "shcn",
+      "target": 7,
+      "available": 1
+    },
+    {
+      "domainId": "pulp",
+      "target": 6,
+      "available": 0
+    },
+    {
+      "domainId": "trauma-emergency",
+      "target": 5,
+      "available": 0
+    },
+    {
+      "domainId": "diagnosis",
+      "target": 5,
+      "available": 0
+    },
+    {
+      "domainId": "prevention",
+      "target": 5,
+      "available": 0
+    },
+    {
+      "domainId": "growth",
+      "target": 4,
+      "available": 0
+    },
+    {
+      "domainId": "behavior",
+      "target": 3,
+      "available": 0
+    },
+    {
+      "domainId": "practice",
+      "target": 3,
+      "available": 2
+    },
+    {
+      "domainId": "advocacy",
+      "target": 1,
+      "available": 0
+    }
+  ]
+}

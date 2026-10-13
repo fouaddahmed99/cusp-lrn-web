@@ -1,0 +1,21 @@
+{
+  "id": "itm_01M4SDX44KXKQ7MBEKD9JACVRT",
+  "version": 1,
+  "tags": {
+    "domainId": "shcn",
+    "subtopicId": "sample-condition-x",
+    "taskStatementId": "ts-sample-condition-x",
+    "cognitiveLevel": "analyze_evaluate"
+  },
+  "lastVerifiedAt": "2026-10-13T01:26:49.236Z",
+  "type": "oce_vignette",
+  "presentation": "SAMPLE: A fictional test scenario one for the practice player, with no clinical content at all.",
+  "timeLimitSec": 600,
+  "questions": [
+    "SAMPLE examiner question one?",
+    "SAMPLE examiner question two?",
+    "SAMPLE examiner question three?",
+    "SAMPLE examiner question four?",
+    "SAMPLE examiner question five?"
+  ]
+}

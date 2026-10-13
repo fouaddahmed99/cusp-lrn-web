@@ -1,0 +1,68 @@
+{
+  "id": "itm_01M4SDX43DJ3F6XHYHQCNXHKQX",
+  "version": 1,
+  "type": "mcq",
+  "key": "A",
+  "rationales": {
+    "A": [
+      {
+        "text": "SAMPLE: correct, it restates fictional condition x.",
+        "cites": [
+          {
+            "sourceId": "src_sample-condition-x-fact-sheet",
+            "page": null,
+            "section": "SAMPLE Fictional Condition X Fact Sheet (fictional government page for software tests) › Overview"
+          }
+        ]
+      }
+    ],
+    "B": [
+      {
+        "text": "SAMPLE: wrong, the fact on the primary test rules out B.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 1,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+          }
+        ]
+      }
+    ],
+    "C": [
+      {
+        "text": "SAMPLE: wrong, the fact on secondary test buttons rules out C.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 1,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Buttons"
+          }
+        ]
+      }
+    ],
+    "D": [
+      {
+        "text": "SAMPLE: wrong, the fact on fictional layouts place rules out D.",
+        "cites": [
+          {
+            "sourceId": "src_sample-ui-style-guide",
+            "page": 2,
+            "section": "SAMPLE UI Style Guide (fictional, for software tests only) › Spacing"
+          }
+        ]
+      }
+    ]
+  },
+  "explanation": [
+    {
+      "text": "SAMPLE: the explanation for fictional condition x cites its fact.",
+      "cites": [
+        {
+          "sourceId": "src_sample-condition-x-fact-sheet",
+          "page": null,
+          "section": "SAMPLE Fictional Condition X Fact Sheet (fictional government page for software tests) › Overview"
+        }
+      ]
+    }
+  ]
+}
