@@ -1,0 +1,58 @@
+{
+  "id": "form_qe-full-a",
+  "name": "Full QE simulation — Form A",
+  "kind": "full",
+  "itemIds": [],
+  "shortfall": [
+    {
+      "domainId": "caries",
+      "target": 55,
+      "available": 0
+    },
+    {
+      "domainId": "shcn",
+      "target": 34,
+      "available": 0
+    },
+    {
+      "domainId": "pulp",
+      "target": 29,
+      "available": 0
+    },
+    {
+      "domainId": "trauma-emergency",
+      "target": 24,
+      "available": 0
+    },
+    {
+      "domainId": "diagnosis",
+      "target": 24,
+      "available": 0
+    },
+    {
+      "domainId": "prevention",
+      "target": 24,
+      "available": 0
+    },
+    {
+      "domainId": "growth",
+      "target": 19,
+      "available": 0
+    },
+    {
+      "domainId": "behavior",
+      "target": 14,
+      "available": 0
+    },
+    {
+      "domainId": "practice",
+      "target": 12,
+      "available": 0
+    },
+    {
+      "domainId": "advocacy",
+      "target": 5,
+      "available": 0
+    }
+  ]
+}

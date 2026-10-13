@@ -1,0 +1,116 @@
+{
+  "contractVersion": 1,
+  "contentVersion": "126653d5fbe2",
+  "builtAt": "2026-10-13T02:22:30.939Z",
+  "sample": false,
+  "exam": {
+    "qe": {
+      "totalItems": 240,
+      "unscoredPretestItems": 40,
+      "durationMinutes": 240,
+      "miniMockSizes": [
+        50,
+        100
+      ]
+    },
+    "oce": {
+      "sessions": 2,
+      "sessionMinutes": 60,
+      "examinersPerSession": 2
+    }
+  },
+  "domains": [
+    {
+      "id": "caries",
+      "name": "Caries dx, non-restorative and restorative",
+      "qeWeightPct": 23,
+      "oceWeightPct": 17
+    },
+    {
+      "id": "shcn",
+      "name": "Special health care needs",
+      "qeWeightPct": 14,
+      "oceWeightPct": 8
+    },
+    {
+      "id": "pulp",
+      "name": "Pulp therapy",
+      "qeWeightPct": 12,
+      "oceWeightPct": 8
+    },
+    {
+      "id": "trauma-emergency",
+      "name": "Oral-facial injury, emergency care, oral surgery",
+      "qeWeightPct": 10,
+      "oceWeightPct": 16
+    },
+    {
+      "id": "diagnosis",
+      "name": "Diagnosis, oral pathology, radiology, oral medicine",
+      "qeWeightPct": 10,
+      "oceWeightPct": 10
+    },
+    {
+      "id": "prevention",
+      "name": "Prevention and health promotion",
+      "qeWeightPct": 10,
+      "oceWeightPct": 10
+    },
+    {
+      "id": "growth",
+      "name": "Growth and development",
+      "qeWeightPct": 8,
+      "oceWeightPct": 8
+    },
+    {
+      "id": "behavior",
+      "name": "Behavior guidance",
+      "qeWeightPct": 6,
+      "oceWeightPct": 14
+    },
+    {
+      "id": "practice",
+      "name": "Elements of pediatric dental practice",
+      "qeWeightPct": 5,
+      "oceWeightPct": 5
+    },
+    {
+      "id": "advocacy",
+      "name": "Advocacy and education",
+      "qeWeightPct": 2,
+      "oceWeightPct": 4
+    }
+  ],
+  "subtopics": [],
+  "taskStatements": [],
+  "counts": {
+    "mcq": 0,
+    "vignette_mcq": 0,
+    "image_mcq": 0,
+    "flashcard": 0,
+    "note_section": 0,
+    "oce_vignette": 0
+  },
+  "stubFiles": [],
+  "noteSubtopics": [],
+  "forms": [
+    {
+      "id": "form_mini-100-a",
+      "name": "100-item mini-mock — Form A",
+      "kind": "mini100",
+      "size": 0
+    },
+    {
+      "id": "form_mini-50-a",
+      "name": "50-item mini-mock — Form A",
+      "kind": "mini50",
+      "size": 0
+    },
+    {
+      "id": "form_qe-full-a",
+      "name": "Full QE simulation — Form A",
+      "kind": "full",
+      "size": 0
+    }
+  ]
+}
