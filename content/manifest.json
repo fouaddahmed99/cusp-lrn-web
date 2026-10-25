@@ -1,7 +1,7 @@
 {
   "contractVersion": 1,
   "contentVersion": "126653d5fbe2",
-  "builtAt": "2026-10-13T18:12:33.716Z",
+  "builtAt": "2026-10-25T23:36:26.502Z",
   "sample": false,
   "exam": {
     "qe": {
@@ -266,6 +266,286 @@
       "id": "recognition-and-management-of-child-abuse-and-negl",
       "domainId": "trauma-emergency",
       "name": "Recognition and Management of Child Abuse and Neglect in a Dental Setting"
+    },
+    {
+      "id": "cond-achondroplasia",
+      "domainId": "shcn",
+      "name": "Achondroplasia"
+    },
+    {
+      "id": "cond-apert-syndrome",
+      "domainId": "shcn",
+      "name": "Apert syndrome"
+    },
+    {
+      "id": "cond-angelman-syndrome",
+      "domainId": "shcn",
+      "name": "Angelman syndrome"
+    },
+    {
+      "id": "cond-beckwith-wiedemann-syndrome",
+      "domainId": "shcn",
+      "name": "Beckwith-Wiedemann syndrome"
+    },
+    {
+      "id": "cond-charge-syndrome",
+      "domainId": "shcn",
+      "name": "CHARGE syndrome"
+    },
+    {
+      "id": "cond-chediak-higashi-syndrome",
+      "domainId": "shcn",
+      "name": "Chediak-Higashi syndrome"
+    },
+    {
+      "id": "cond-cleft-lip-and-palate",
+      "domainId": "shcn",
+      "name": "Cleft lip and palate"
+    },
+    {
+      "id": "cond-cleidocranial-dysplasia",
+      "domainId": "shcn",
+      "name": "Cleidocranial dysplasia"
+    },
+    {
+      "id": "cond-cornelia-de-lange-syndrome",
+      "domainId": "shcn",
+      "name": "Cornelia de Lange syndrome"
+    },
+    {
+      "id": "cond-crouzon-syndrome",
+      "domainId": "shcn",
+      "name": "Crouzon syndrome"
+    },
+    {
+      "id": "cond-cyclic-neutropenia",
+      "domainId": "shcn",
+      "name": "Cyclic neutropenia"
+    },
+    {
+      "id": "cond-22q11-2-deletion-syndrome",
+      "domainId": "shcn",
+      "name": "22q11.2 deletion syndrome"
+    },
+    {
+      "id": "cond-down-syndrome",
+      "domainId": "shcn",
+      "name": "Down syndrome"
+    },
+    {
+      "id": "cond-ectodermal-dysplasia",
+      "domainId": "shcn",
+      "name": "Ectodermal dysplasia"
+    },
+    {
+      "id": "cond-ehlers-danlos-syndrome",
+      "domainId": "shcn",
+      "name": "Ehlers-Danlos syndrome"
+    },
+    {
+      "id": "cond-ellisvan-creveld-syndrome",
+      "domainId": "shcn",
+      "name": "Ellis–van Creveld syndrome"
+    },
+    {
+      "id": "cond-epidermolysis-bullosa",
+      "domainId": "shcn",
+      "name": "Epidermolysis bullosa"
+    },
+    {
+      "id": "cond-fragile-x-syndrome",
+      "domainId": "shcn",
+      "name": "Fragile X syndrome"
+    },
+    {
+      "id": "cond-gardner-syndrome",
+      "domainId": "shcn",
+      "name": "Gardner syndrome"
+    },
+    {
+      "id": "cond-goldenhar-syndrome",
+      "domainId": "shcn",
+      "name": "Goldenhar syndrome"
+    },
+    {
+      "id": "cond-kabuki-syndrome",
+      "domainId": "shcn",
+      "name": "Kabuki syndrome"
+    },
+    {
+      "id": "cond-langerhans-cell-histiocytosis",
+      "domainId": "shcn",
+      "name": "Langerhans cell histiocytosis"
+    },
+    {
+      "id": "cond-leukocyte-adhesion-deficiency",
+      "domainId": "shcn",
+      "name": "Leukocyte adhesion deficiency"
+    },
+    {
+      "id": "cond-leschnyhan-syndrome",
+      "domainId": "shcn",
+      "name": "Lesch–Nyhan syndrome"
+    },
+    {
+      "id": "cond-marfan-syndrome",
+      "domainId": "shcn",
+      "name": "Marfan syndrome"
+    },
+    {
+      "id": "cond-mccunealbright-syndrome",
+      "domainId": "shcn",
+      "name": "McCune–Albright syndrome"
+    },
+    {
+      "id": "cond-mobius-syndrome",
+      "domainId": "shcn",
+      "name": "Möbius syndrome"
+    },
+    {
+      "id": "cond-mucopolysaccharidosis",
+      "domainId": "shcn",
+      "name": "Mucopolysaccharidosis"
+    },
+    {
+      "id": "cond-neurofibromatosis-type-1",
+      "domainId": "shcn",
+      "name": "Neurofibromatosis type 1"
+    },
+    {
+      "id": "cond-noonan-syndrome",
+      "domainId": "shcn",
+      "name": "Noonan syndrome"
+    },
+    {
+      "id": "cond-osteogenesis-imperfecta",
+      "domainId": "shcn",
+      "name": "Osteogenesis imperfecta"
+    },
+    {
+      "id": "cond-papillonlefevre-syndrome",
+      "domainId": "shcn",
+      "name": "Papillon–Lefèvre syndrome"
+    },
+    {
+      "id": "cond-peutzjeghers-syndrome",
+      "domainId": "shcn",
+      "name": "Peutz–Jeghers syndrome"
+    },
+    {
+      "id": "cond-pfeiffer-syndrome",
+      "domainId": "shcn",
+      "name": "Pfeiffer syndrome"
+    },
+    {
+      "id": "cond-pierre-robin-sequence",
+      "domainId": "shcn",
+      "name": "Pierre Robin sequence"
+    },
+    {
+      "id": "cond-praderwilli-syndrome",
+      "domainId": "shcn",
+      "name": "Prader–Willi syndrome"
+    },
+    {
+      "id": "cond-rett-syndrome",
+      "domainId": "shcn",
+      "name": "Rett syndrome"
+    },
+    {
+      "id": "cond-rubinsteintaybi-syndrome",
+      "domainId": "shcn",
+      "name": "Rubinstein–Taybi syndrome"
+    },
+    {
+      "id": "cond-sickle-cell-disease",
+      "domainId": "shcn",
+      "name": "Sickle cell disease"
+    },
+    {
+      "id": "cond-stickler-syndrome",
+      "domainId": "shcn",
+      "name": "Stickler syndrome"
+    },
+    {
+      "id": "cond-sturgeweber-syndrome",
+      "domainId": "shcn",
+      "name": "Sturge–Weber syndrome"
+    },
+    {
+      "id": "cond-treacher-collins-syndrome",
+      "domainId": "shcn",
+      "name": "Treacher Collins syndrome"
+    },
+    {
+      "id": "cond-vacterl-association",
+      "domainId": "shcn",
+      "name": "VACTERL association"
+    },
+    {
+      "id": "cond-williams-syndrome",
+      "domainId": "shcn",
+      "name": "Williams syndrome"
+    },
+    {
+      "id": "cond-wolffhirschhorn-syndrome",
+      "domainId": "shcn",
+      "name": "Wolff–Hirschhorn syndrome"
+    },
+    {
+      "id": "cond-van-der-woude-syndrome",
+      "domainId": "shcn",
+      "name": "Van der Woude syndrome"
+    },
+    {
+      "id": "cond-sanfilippo-syndrome",
+      "domainId": "shcn",
+      "name": "Sanfilippo syndrome"
+    },
+    {
+      "id": "cond-celiac-disease",
+      "domainId": "shcn",
+      "name": "Celiac disease"
+    },
+    {
+      "id": "cond-crohn-disease",
+      "domainId": "shcn",
+      "name": "Crohn disease"
+    },
+    {
+      "id": "cond-behcet-disease",
+      "domainId": "shcn",
+      "name": "Behçet disease"
+    },
+    {
+      "id": "cond-hemophilia",
+      "domainId": "shcn",
+      "name": "Hemophilia"
+    },
+    {
+      "id": "cond-kawasaki-disease",
+      "domainId": "shcn",
+      "name": "Kawasaki disease"
+    },
+    {
+      "id": "cond-adrenal-insufficiency",
+      "domainId": "shcn",
+      "name": "Adrenal insufficiency"
+    },
+    {
+      "id": "cond-autism-spectrum-disorder",
+      "domainId": "shcn",
+      "name": "Autism spectrum disorder"
+    },
+    {
+      "id": "cond-cerebral-palsy",
+      "domainId": "shcn",
+      "name": "Cerebral palsy"
+    },
+    {
+      "id": "cond-tuberous-sclerosis-complex",
+      "domainId": "shcn",
+      "name": "Tuberous sclerosis complex"
     }
   ],
   "taskStatements": [
