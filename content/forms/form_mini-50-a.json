@@ -2,12 +2,15 @@
   "id": "form_mini-50-a",
   "name": "50-item mini-mock — Form A",
   "kind": "mini50",
-  "itemIds": [],
+  "itemIds": [
+    "itm_01M4V8N0S8RBZ4CDE1RS33DT96",
+    "itm_01M4V8N0SBYD85931HG47F0VFE"
+  ],
   "shortfall": [
     {
       "domainId": "caries",
       "target": 12,
-      "available": 0
+      "available": 2
     },
     {
       "domainId": "shcn",

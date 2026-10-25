@@ -2,12 +2,15 @@
   "id": "form_qe-full-a",
   "name": "Full QE simulation — Form A",
   "kind": "full",
-  "itemIds": [],
+  "itemIds": [
+    "itm_01M4V8N0SBYD85931HG47F0VFE",
+    "itm_01M4V8N0S8RBZ4CDE1RS33DT96"
+  ],
   "shortfall": [
     {
       "domainId": "caries",
       "target": 55,
-      "available": 0
+      "available": 2
     },
     {
       "domainId": "shcn",
