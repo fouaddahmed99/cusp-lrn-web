@@ -9,12 +9,39 @@
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
   },
   {
+    "id": "src_aapd-caries-risk-assessment-and-management-for-infant-2022",
+    "title": "Caries-risk Assessment and Management for Infants, Children, and Adolescents",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2022,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2022",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/caries-risk-assessment-and-management-for-infants-children-and-adolescents/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-chairside-guide-silver-diammine-fluoride-in-the-2025",
+    "title": "Chairside Guide: Silver Diammine Fluoride in the Management of Dental Caries Lesions",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2025,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2025",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/chairside-guide-silver-diamine-fluoride-in-the-management-of-dental-caries-lesions/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
     "id": "src_aapd-evidence-based-clinical-practice-guideline-for-t-2016",
     "title": "Evidence-based Clinical Practice Guideline for the Use of Pit-and-Fissure Sealants",
     "organization": "American Academy of Pediatric Dentistry",
     "year": 2016,
     "versionLabel": "Pediatr Dent 2016;38(5):E120-E36 (as reprinted in the AAPD Reference Manual 2025-2026)",
     "url": "https://www.aapd.org/research/oral-health-policies--recommendations/pit_and_fissure_sealants/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-fluoride-therapy-2023",
+    "title": "Fluoride Therapy",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2023,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2023",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/fluoride-therapy/",
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
   },
   {
@@ -45,6 +72,33 @@
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
   },
   {
+    "id": "src_aapd-pediatric-restorative-dentistry-2022",
+    "title": "Pediatric Restorative Dentistry",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2022,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2022",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/pediatric-restorative-dentistry/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-policy-on-early-childhood-caries-ecc-consequence-2025",
+    "title": "Policy on Early Childhood Caries (ECC): Consequences and Preventive Strategies",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2025,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2025",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/early-childhood-caries-classifications-consequences-and-preventive-strategies/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-policy-on-early-childhood-caries-ecc-unique-chal-2025",
+    "title": "Policy on Early Childhood Caries (ECC): Unique Challenges and Management Considerations",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2025,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2025",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/early-childhood-caries-unique-challenges-and-treatment-options/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
     "id": "src_aapd-use-of-anesthesia-providers-in-the-administratio-2023",
     "title": "Use of Anesthesia Providers in the Administration of Office-Based Deep Sedation/General Anesthesia to the Pediatric Dental Patient",
     "organization": "American Academy of Pediatric Dentistry",
@@ -69,6 +123,15 @@
     "year": 2023,
     "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2023",
     "url": "https://www.aapd.org/research/oral-health-policies--recommendations/use-of-nitrous-oxide-for-pediatric-dental-patients/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-use-of-non-vital-pulp-therapies-in-primary-teeth-2020",
+    "title": "Use of Non-Vital Pulp Therapies in Primary Teeth",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2020,
+    "versionLabel": "Pediatr Dent 2020;42(5):337-49 (as reprinted in the AAPD Reference Manual 2025-2026)",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/use-of-non-vital-pulp-therapies-in-primary-teeth/",
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
   }
 ]
