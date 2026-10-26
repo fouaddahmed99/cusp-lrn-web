@@ -1,7 +1,7 @@
 {
   "contractVersion": 1,
-  "contentVersion": "f7f58678f47b",
-  "builtAt": "2026-10-26T21:33:12.968Z",
+  "contentVersion": "d4856f39cd41",
+  "builtAt": "2026-10-26T21:34:23.753Z",
   "sample": false,
   "exam": {
     "qe": {
@@ -896,8 +896,8 @@
     }
   ],
   "counts": {
-    "mcq": 54,
-    "vignette_mcq": 40,
+    "mcq": 61,
+    "vignette_mcq": 46,
     "image_mcq": 0,
     "flashcard": 0,
     "note_section": 0,
@@ -920,7 +920,7 @@
       "id": "form_mini-100-a",
       "name": "100-item mini-mock — Form A",
       "kind": "mini100",
-      "size": 72
+      "size": 76
     },
     {
       "id": "form_mini-50-a",
@@ -932,7 +932,7 @@
       "id": "form_qe-full-a",
       "name": "Full QE simulation — Form A",
       "kind": "full",
-      "size": 94
+      "size": 107
     }
   ]
 }
