@@ -3,8 +3,19 @@
   "name": "Full QE simulation — Form A",
   "kind": "full",
   "itemIds": [
+    "itm_01M4V8N0S8RBZ4CDE1RS33DT96",
+    "itm_01M5TTS3PT5ES23CB7F80CQCH7",
+    "itm_01M5TTS3PVZ25CDKT9ART2BSTD",
+    "itm_01M5TVK3HZXTT1V3DM6Y89J6MA",
+    "itm_01M5TVK3HYW90B33J1PVSN0HG8",
+    "itm_01M5TTCYR62K2PSTQK5D4RQ6YY",
+    "itm_01M5TVA5YW30WKC4E9DQAMR70G",
+    "itm_01M5TVA5YXMX09FB6V7AB71D3B",
+    "itm_01M5TVK3HZAEZ1XEQF1CKB9GW2",
+    "itm_01M5TTHZXE4RB3C3H8MV4K9RZ9",
+    "itm_01M5TV18X152DW249BEEREKT7N",
     "itm_01M4V8N0SBYD85931HG47F0VFE",
-    "itm_01M4V8N0S8RBZ4CDE1RS33DT96"
+    "itm_01M5TTCYR69CW8VPZP40HCQ33C"
   ],
   "shortfall": [
     {
@@ -45,7 +56,7 @@
     {
       "domainId": "behavior",
       "target": 14,
-      "available": 0
+      "available": 11
     },
     {
       "domainId": "practice",

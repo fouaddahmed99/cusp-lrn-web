@@ -3,8 +3,11 @@
   "name": "50-item mini-mock — Form A",
   "kind": "mini50",
   "itemIds": [
+    "itm_01M5TVK3HZAEZ1XEQF1CKB9GW2",
     "itm_01M4V8N0S8RBZ4CDE1RS33DT96",
-    "itm_01M4V8N0SBYD85931HG47F0VFE"
+    "itm_01M4V8N0SBYD85931HG47F0VFE",
+    "itm_01M5TTCYR69CW8VPZP40HCQ33C",
+    "itm_01M5TTS3PT5ES23CB7F80CQCH7"
   ],
   "shortfall": [
     {
@@ -40,11 +43,6 @@
     {
       "domainId": "growth",
       "target": 4,
-      "available": 0
-    },
-    {
-      "domainId": "behavior",
-      "target": 3,
       "available": 0
     },
     {

@@ -4,7 +4,13 @@
   "kind": "mini100",
   "itemIds": [
     "itm_01M4V8N0S8RBZ4CDE1RS33DT96",
-    "itm_01M4V8N0SBYD85931HG47F0VFE"
+    "itm_01M5TTCYR69CW8VPZP40HCQ33C",
+    "itm_01M5TTS3PVZ25CDKT9ART2BSTD",
+    "itm_01M4V8N0SBYD85931HG47F0VFE",
+    "itm_01M5TVK3HZXTT1V3DM6Y89J6MA",
+    "itm_01M5TTCYR62K2PSTQK5D4RQ6YY",
+    "itm_01M5TV18X152DW249BEEREKT7N",
+    "itm_01M5TTHZXE4RB3C3H8MV4K9RZ9"
   ],
   "shortfall": [
     {
@@ -40,11 +46,6 @@
     {
       "domainId": "growth",
       "target": 8,
-      "available": 0
-    },
-    {
-      "domainId": "behavior",
-      "target": 6,
       "available": 0
     },
     {

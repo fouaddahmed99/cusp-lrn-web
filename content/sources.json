@@ -1,11 +1,74 @@
 [
   {
+    "id": "src_aapd-behavior-guidance-for-the-pediatric-dental-patie-2024",
+    "title": "Behavior Guidance for the Pediatric Dental Patient",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2024,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2024",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/behavior-guidance-for-the-pediatric-dental-patient/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
     "id": "src_aapd-evidence-based-clinical-practice-guideline-for-t-2016",
     "title": "Evidence-based Clinical Practice Guideline for the Use of Pit-and-Fissure Sealants",
     "organization": "American Academy of Pediatric Dentistry",
     "year": 2016,
     "versionLabel": "Pediatr Dent 2016;38(5):E120-E36 (as reprinted in the AAPD Reference Manual 2025-2026)",
     "url": "https://www.aapd.org/research/oral-health-policies--recommendations/pit_and_fissure_sealants/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-guidelines-for-monitoring-and-management-of-pedi-2025",
+    "title": "Guidelines for Monitoring and Management of Pediatric Patients Before, During, and After Sedation for Diagnostic and Therapeutic Procedures",
+    "organization": "American Academy of Pediatric Dentistry / American Academy of Pediatrics",
+    "year": 2025,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2025",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/monitoring-and-management-of-pediatric-patients-before-during-and-after-sedation-for-diagnostic-and-therapeutic-procedures/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-management-of-dental-patients-with-special-healt-2026",
+    "title": "Management of Dental Patients with Special Health Care Needs",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2026,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2026-2027, latest revision 2026",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/management-of-dental-patients-with-special-health-care-needs/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-nonpharmacological-behavior-guidance-for-the-ped-2023",
+    "title": "Nonpharmacological Behavior Guidance for the Pediatric Dental Patient",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2023,
+    "versionLabel": "Pediatr Dent 2023;45(5):385-410 (as reprinted in the AAPD Reference Manual 2025-2026)",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/delineation-of-privileges/asdas/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-use-of-anesthesia-providers-in-the-administratio-2023",
+    "title": "Use of Anesthesia Providers in the Administration of Office-Based Deep Sedation/General Anesthesia to the Pediatric Dental Patient",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2023,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2023",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/use-of-anesthesia-providers-in-the-administration-of-office-based-deep-sedationgeneral-anesthesia-to-the-pediatric-dental-patient/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-use-of-local-anesthesia-for-pediatric-dental-pat-2023",
+    "title": "Use of Local Anesthesia for Pediatric Dental Patients",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2023,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2023",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/use-of-local-anesthesia-for-pediatric-dental-patients/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-use-of-nitrous-oxide-for-pediatric-dental-patien-2023",
+    "title": "Use of Nitrous Oxide for Pediatric Dental Patients",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2023,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2023",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/use-of-nitrous-oxide-for-pediatric-dental-patients/",
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
   }
 ]
