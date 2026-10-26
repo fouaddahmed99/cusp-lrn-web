@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { activeProductLine, brand } from "@config";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { ServiceWorkerRegister } from "@/components/sw-register";
+import { UpdateBanner } from "@/components/update-banner";
 import { themeScript } from "@/components/theme";
 import { asset } from "@/lib/base";
 import "./globals.css";
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </main>
         <SiteFooter />
         <ServiceWorkerRegister />
+        <UpdateBanner />
       </body>
     </html>
   );

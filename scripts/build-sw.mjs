@@ -55,7 +55,24 @@ self.addEventListener("fetch", (e) => {
     e.respondWith(fetch(req).then(save).catch(async () => (await caches.match(req, { ignoreSearch: true })) || (await caches.match(${JSON.stringify(`${base}/app/`)})) || new Response("Offline", { status: 503 })));
     return;
   }
-  // Hashed assets and content: cache first, refresh in the background.
+  if (isContent) {
+    // Content JSON: network first (revalidated past the HTTP cache) so a new publish
+    // shows up on the next load; fall back to the cached copy when offline or slow.
+    e.respondWith((async () => {
+      try {
+        const res = await Promise.race([
+          fetch(req, { cache: "no-cache" }),
+          new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), 4000)),
+        ]);
+        if (res.ok) return await save(res);
+        return (await caches.match(req)) || res;
+      } catch {
+        return (await caches.match(req)) || new Response("Offline", { status: 503, headers: { "content-type": "text/plain" } });
+      }
+    })());
+    return;
+  }
+  // Hashed app assets: cache first, refresh in the background.
   e.respondWith((async () => {
     const cached = await caches.match(req);
     const network = fetch(req).then(save).catch(() => undefined);
