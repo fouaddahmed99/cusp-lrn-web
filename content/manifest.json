@@ -1,7 +1,7 @@
 {
   "contractVersion": 1,
   "contentVersion": "d09e98faadf1",
-  "builtAt": "2026-10-26T19:15:42.873Z",
+  "builtAt": "2026-10-26T19:16:25.870Z",
   "sample": false,
   "exam": {
     "qe": {
@@ -546,6 +546,31 @@
       "id": "cond-tuberous-sclerosis-complex",
       "domainId": "shcn",
       "name": "Tuberous sclerosis complex"
+    },
+    {
+      "id": "bleeding-disorders",
+      "domainId": "shcn",
+      "name": "Hemophilia and Other Inherited Bleeding Disorders"
+    },
+    {
+      "id": "immunosuppression-and-head-and-neck-radiation",
+      "domainId": "shcn",
+      "name": "Immunosuppressive Therapy and Head and Neck Radiation"
+    },
+    {
+      "id": "cleft-lip-palate-and-craniofacial-anomalies",
+      "domainId": "shcn",
+      "name": "Cleft Lip/Palate and Other Craniofacial Anomalies"
+    },
+    {
+      "id": "periodontal-conditions",
+      "domainId": "diagnosis",
+      "name": "Periodontal Conditions in Pediatric Patients"
+    },
+    {
+      "id": "systemic-diseases-affecting-the-periodontium",
+      "domainId": "diagnosis",
+      "name": "Systemic Diseases and Syndromes that Affect the Periodontium"
     }
   ],
   "taskStatements": [
