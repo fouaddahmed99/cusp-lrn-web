@@ -1,7 +1,7 @@
 {
   "contractVersion": 1,
-  "contentVersion": "b1805400b91d",
-  "builtAt": "2026-10-26T16:38:38.107Z",
+  "contentVersion": "d09e98faadf1",
+  "builtAt": "2026-10-26T16:39:42.315Z",
   "sample": false,
   "exam": {
     "qe": {
@@ -871,8 +871,8 @@
     }
   ],
   "counts": {
-    "mcq": 38,
-    "vignette_mcq": 23,
+    "mcq": 44,
+    "vignette_mcq": 27,
     "image_mcq": 0,
     "flashcard": 0,
     "note_section": 0,
@@ -886,7 +886,8 @@
     "stubs/practice.json",
     "stubs/prevention.json",
     "stubs/pulp.json",
-    "stubs/shcn.json"
+    "stubs/shcn.json",
+    "stubs/trauma-emergency.json"
   ],
   "noteSubtopics": [],
   "forms": [
@@ -894,19 +895,19 @@
       "id": "form_mini-100-a",
       "name": "100-item mini-mock — Form A",
       "kind": "mini100",
-      "size": 52
+      "size": 62
     },
     {
       "id": "form_mini-50-a",
       "name": "50-item mini-mock — Form A",
       "kind": "mini50",
-      "size": 40
+      "size": 45
     },
     {
       "id": "form_qe-full-a",
       "name": "Full QE simulation — Form A",
       "kind": "full",
-      "size": 61
+      "size": 71
     }
   ]
 }
