@@ -99,6 +99,24 @@
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
   },
   {
+    "id": "src_aapd-prescribing-dental-radiographs-for-infants-child-2025",
+    "title": "Prescribing Dental Radiographs for Infants, Children, Adolescents, and Individuals with Special Health Care Needs",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2025,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2025",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/prescribing-dental-radiographs-for-infants-children-adolescents-and-individuals-with-special-health-care-needs/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_aapd-temporomandibular-disorders-in-children-and-adol-2024",
+    "title": "Temporomandibular Disorders in Children and Adolescents, Including Those with Special Health Care Needs",
+    "organization": "American Academy of Pediatric Dentistry",
+    "year": 2024,
+    "versionLabel": "Reference Manual of Pediatric Dentistry 2025-2026, latest revision 2024",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/acquired-temporomandibular-disorders-in-infants-children-and-adolescents/",
+    "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
     "id": "src_aapd-use-of-anesthesia-providers-in-the-administratio-2023",
     "title": "Use of Anesthesia Providers in the Administration of Office-Based Deep Sedation/General Anesthesia to the Pediatric Dental Patient",
     "organization": "American Academy of Pediatric Dentistry",
@@ -133,5 +151,15 @@
     "versionLabel": "Pediatr Dent 2020;42(5):337-49 (as reprinted in the AAPD Reference Manual 2025-2026)",
     "url": "https://www.aapd.org/research/oral-health-policies--recommendations/use-of-non-vital-pulp-therapies-in-primary-teeth/",
     "licenseLabel": "Free to read (all rights reserved; facts paraphrased)"
+  },
+  {
+    "id": "src_iadt-2020-injuries-primary-dentition",
+    "title": "International Association of Dental Traumatology Guidelines for the Management of Traumatic Dental Injuries: 3. Injuries in the Primary Dentition",
+    "organization": "International Association of Dental Traumatology",
+    "year": 2020,
+    "versionLabel": "Dent Traumatol 2020;36(4):343-359 (as reprinted in the AAPD Reference Manual 2025-2026)",
+    "url": "https://www.aapd.org/research/oral-health-policies--recommendations/guidelines-for-the-management-of-traumatic-dental-injuries-in-the-primary-dentition/",
+    "licenseLabel": "Non-commercial license (facts paraphrased)",
+    "attribution": "International Association of Dental Traumatology Guidelines for the Management of Traumatic Dental Injuries: 3. Injuries in the Primary Dentition. Dent Traumatol 2020;36(4):343-359. © 2020 The Authors (CC BY-NC-ND). https://doi.org/10.1111/edt.12576"
   }
 ]
