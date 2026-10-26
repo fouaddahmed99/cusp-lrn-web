@@ -1,7 +1,7 @@
 {
   "contractVersion": 1,
-  "contentVersion": "488cbd220562",
-  "builtAt": "2026-10-26T16:34:51.260Z",
+  "contentVersion": "99ca1212b096",
+  "builtAt": "2026-10-26T16:35:46.767Z",
   "sample": false,
   "exam": {
     "qe": {
@@ -871,7 +871,7 @@
     }
   ],
   "counts": {
-    "mcq": 24,
+    "mcq": 25,
     "vignette_mcq": 12,
     "image_mcq": 0,
     "flashcard": 0,
@@ -882,7 +882,8 @@
     "stubs/behavior.json",
     "stubs/caries.json",
     "stubs/diagnosis.json",
-    "stubs/growth.json"
+    "stubs/growth.json",
+    "stubs/practice.json"
   ],
   "noteSubtopics": [],
   "forms": [
@@ -890,19 +891,19 @@
       "id": "form_mini-100-a",
       "name": "100-item mini-mock — Form A",
       "kind": "mini100",
-      "size": 31
+      "size": 32
     },
     {
       "id": "form_mini-50-a",
       "name": "50-item mini-mock — Form A",
       "kind": "mini50",
-      "size": 24
+      "size": 25
     },
     {
       "id": "form_qe-full-a",
       "name": "Full QE simulation — Form A",
       "kind": "full",
-      "size": 36
+      "size": 37
     }
   ]
 }
