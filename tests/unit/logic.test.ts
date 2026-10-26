@@ -10,6 +10,7 @@ import { buildPlan } from "@/lib/planner";
 import { filterStubs, emptyFilters } from "@/lib/select";
 import { isDue, newCard, review, Rating } from "@/lib/srs";
 import { toCsv } from "@/lib/csv";
+import { displayOrder } from "@/lib/shuffle";
 import type { Attempt } from "@/lib/types";
 
 const att = (o: Partial<Attempt>): Attempt => ({ itemId: "i1", version: 1, sessionId: "s", kind: "qbank", selected: "A", correct: true, timeMs: 30000, at: "2026-10-01T10:00:00Z", domainId: "d1", subtopicId: "s1", taskStatementId: "t1", cognitiveLevel: "remember", ...o });
@@ -101,5 +102,23 @@ describe("sample content bundle", () => {
       const a = JSON.parse(readFileSync(path.join(dir, "a", f), "utf8"));
       expect(() => PublicAnswer.parse(a)).not.toThrow();
     }
+  });
+});
+
+describe("displayOrder (option shuffle)", () => {
+  const q = (id: string) => ({ id, options: ["A", "B", "C", "D"].map((o) => ({ id: o, text: `SAMPLE option ${o}` })) });
+  it("is deterministic and keeps every option exactly once", () => {
+    const a = displayOrder(q("itm_SAMPLE1"));
+    expect(displayOrder(q("itm_SAMPLE1"))).toEqual(a);
+    expect(a.map((o) => o.id).sort()).toEqual(["A", "B", "C", "D"]);
+    expect(a.map((o) => o.label)).toEqual(["A", "B", "C", "D"]);
+  });
+  it("spreads a stored key of A across displayed positions", () => {
+    const counts: Record<string, number> = {};
+    for (let i = 0; i < 400; i++) {
+      const label = displayOrder(q(`itm_SAMPLE${i}`)).find((o) => o.id === "A")!.label;
+      counts[label] = (counts[label] ?? 0) + 1;
+    }
+    for (const l of ["A", "B", "C", "D"]) expect(counts[l]).toBeGreaterThan(60);
   });
 });

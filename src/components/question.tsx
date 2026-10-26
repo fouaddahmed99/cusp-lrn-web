@@ -4,6 +4,7 @@ import type { PublicAnswer, PublicCitation, PublicQuestion, PublicSentence, Publ
 import { asset } from "@/lib/base";
 import type { OptionId } from "@/lib/util";
 import { CitationChip, LastVerified, SentenceList } from "./citations";
+import { displayOrder } from "@/lib/shuffle";
 import { ReportError } from "./report";
 import { Badge } from "./ui";
 
@@ -55,6 +56,8 @@ function citesOf(sentences: PublicSentence[]): PublicCitation[] {
  * sentence shown. The full explanation and every option's rationale are one click away.
  */
 function QuickExplanation({ q, answer, selected, sources }: { q: McqQuestion; answer: McqAnswer; selected: OptionId | null; sources: Map<string, PublicSource> }) {
+  const order = displayOrder(q);
+  const label = (id: string | null) => order.find((o) => o.id === id)?.label ?? id;
   const keyText = q.options.find((o) => o.id === answer.key)?.text ?? "";
   const keyWhy = answer.rationales[answer.key as OptionId] ?? [];
   const why = (keyWhy.length ? keyWhy : answer.explanation).slice(0, 2);
@@ -64,7 +67,7 @@ function QuickExplanation({ q, answer, selected, sources }: { q: McqQuestion; an
     <section className="surface rounded-lg p-4">
       <h3 className="sr-only">Explanation</h3>
       <p className="mb-2 font-semibold">
-        Correct answer: {answer.key} — {keyText}
+        Correct answer: {label(answer.key)} — {keyText}
       </p>
       <p className="leading-relaxed">
         <span className="font-semibold">Why: </span>
@@ -72,7 +75,7 @@ function QuickExplanation({ q, answer, selected, sources }: { q: McqQuestion; an
       </p>
       {wrong.length > 0 && (
         <p className="mt-2 leading-relaxed">
-          <span className="font-semibold">Why not {selected}: </span>
+          <span className="font-semibold">Why not {label(selected)}: </span>
           {wrong.map((s) => s.text).join(" ")}
         </p>
       )}
@@ -105,6 +108,8 @@ export function QuestionView({
   locked: boolean;
 }) {
   const name = `q-${q.id}`;
+  const order = displayOrder(q);
+  const label = (id: string) => order.find((o) => o.id === id)?.label ?? id;
   return (
     <div>
       {q.vignette && <p className="surface mb-4 rounded-lg p-4 leading-relaxed">{q.vignette}</p>}
@@ -112,14 +117,14 @@ export function QuestionView({
       <fieldset>
         <legend className="mb-4 text-lg font-medium leading-relaxed">{q.stem}</legend>
         <div className="flex flex-col gap-2">
-          {q.options.map((o) => {
+          {order.map((o) => {
             const isSel = selected === o.id;
             const isKey = answer?.key === o.id;
             const state = answer ? (isKey ? "border-[var(--color-ok)] bg-[color-mix(in_srgb,var(--color-ok)_10%,transparent)]" : isSel ? "border-[var(--color-bad)] bg-[color-mix(in_srgb,var(--color-bad)_10%,transparent)]" : "") : isSel ? "border-[var(--brand)] bg-[var(--surface-2)]" : "";
             return (
               <label key={o.id} className={`surface flex cursor-pointer items-start gap-3 rounded-lg border-2 p-3 ${state} ${locked ? "cursor-default" : "hover:bg-[var(--surface-2)]"}`}>
                 <input type="radio" name={name} value={o.id} checked={isSel} disabled={locked} onChange={() => onSelect(o.id)} className="mt-1 h-4 w-4 accent-[var(--brand)]" />
-                <span className="font-semibold">{o.id}.</span>
+                <span className="font-semibold">{o.label}.</span>
                 <span className="flex-1">{o.text}</span>
                 {answer && isKey && <Badge tone="ok">Correct answer</Badge>}
                 {answer && isSel && !isKey && <Badge tone="bad">Your answer</Badge>}
@@ -130,7 +135,7 @@ export function QuestionView({
       </fieldset>
       {answer && (
         <div className="mt-6 flex flex-col gap-5" aria-live="polite">
-          <p className="text-base font-semibold">{selected === answer.key ? "✓ Correct" : selected ? `✗ Incorrect — the answer is ${answer.key}` : `Not answered — the answer is ${answer.key}`}</p>
+          <p className="text-base font-semibold">{selected === answer.key ? "✓ Correct" : selected ? `✗ Incorrect — the answer is ${label(answer.key)}` : `Not answered — the answer is ${label(answer.key)}`}</p>
           <QuickExplanation q={q} answer={answer} selected={selected} sources={sources} />
           <details>
             <summary className="cursor-pointer select-none text-sm font-semibold text-[var(--brand)]">Detailed explanation and every option</summary>
@@ -142,10 +147,10 @@ export function QuestionView({
               <section>
                 <h3 className="mb-2 font-semibold">Why each option is right or wrong</h3>
                 <div className="flex flex-col gap-3">
-                  {q.options.map((o) => (
+                  {order.map((o) => (
                     <div key={o.id} className="surface rounded-lg p-3">
                       <p className="mb-1 text-sm font-semibold">
-                        {o.id}. {o.text} {o.id === answer.key && <Badge tone="ok">Correct</Badge>}
+                        {o.label}. {o.text} {o.id === answer.key && <Badge tone="ok">Correct</Badge>}
                       </p>
                       <SentenceList sentences={answer.rationales[o.id] ?? []} sources={sources} />
                     </div>
