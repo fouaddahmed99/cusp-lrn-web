@@ -33,3 +33,17 @@ test("progress export produces a backup file", async ({ page }) => {
   await page.getByRole("button", { name: "Export progress" }).click();
   expect((await download).suggestedFilename()).toMatch(/^cusp-lrn-progress-.*\.json$/);
 });
+
+test("explanations open in the quick view, with references, and expand to the detail", async ({ page }) => {
+  await page.goto("/app/qbank/");
+  await page.getByRole("button", { name: /^Start \d+ question/ }).click();
+  await page.getByRole("radio").first().check();
+  await page.getByRole("button", { name: "Submit answer" }).click();
+  await expect(page.getByText(/^Correct answer: [A-E] — /)).toBeVisible();
+  await expect(page.getByText(/^Why:/)).toBeVisible();
+  await expect(page.getByText("Reference:")).toBeVisible();
+  const detail = page.getByRole("heading", { name: "Why each option is right or wrong" });
+  await expect(detail).toBeHidden();
+  await page.getByText("Detailed explanation and every option").click();
+  await expect(detail).toBeVisible();
+});
