@@ -1,7 +1,7 @@
 {
   "contractVersion": 1,
-  "contentVersion": "23f3adb5738a",
-  "builtAt": "2026-10-26T16:37:40.333Z",
+  "contentVersion": "b1805400b91d",
+  "builtAt": "2026-10-26T16:38:38.107Z",
   "sample": false,
   "exam": {
     "qe": {
@@ -872,7 +872,7 @@
   ],
   "counts": {
     "mcq": 38,
-    "vignette_mcq": 19,
+    "vignette_mcq": 23,
     "image_mcq": 0,
     "flashcard": 0,
     "note_section": 0,
@@ -885,7 +885,8 @@
     "stubs/growth.json",
     "stubs/practice.json",
     "stubs/prevention.json",
-    "stubs/pulp.json"
+    "stubs/pulp.json",
+    "stubs/shcn.json"
   ],
   "noteSubtopics": [],
   "forms": [
@@ -893,19 +894,19 @@
       "id": "form_mini-100-a",
       "name": "100-item mini-mock — Form A",
       "kind": "mini100",
-      "size": 48
+      "size": 52
     },
     {
       "id": "form_mini-50-a",
       "name": "50-item mini-mock — Form A",
       "kind": "mini50",
-      "size": 36
+      "size": 40
     },
     {
       "id": "form_qe-full-a",
       "name": "Full QE simulation — Form A",
       "kind": "full",
-      "size": 57
+      "size": 61
     }
   ]
 }
